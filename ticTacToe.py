@@ -184,7 +184,7 @@ while not quitted:
     text = FONT.render(winner, True, WHITE) # set result text and font colour
     gameWindow.blit(text, [275,650]) # update the result on the game window
     FONT = pg.font.SysFont(None, 30) # set the font style to display the continue/ quit instructions
-    text = FONT.render("Press x to exit the program, enter to play again :)", True, RED) # set text message and its font colour
+    text = FONT.render("Press qw to signout, enter to play again :)", True, RED) # set text message and its font colour
     gameWindow.blit(text, [200,700]) # set the message on the game window
     pg.display.update() # update the game window with the changes made
 
